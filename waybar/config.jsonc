@@ -26,7 +26,7 @@
         "disk",
         "custom/sep",
 	"battery",
-	"battery#bat2",
+	//"battery#bat2",
         "custom/sep",
         "clock",
         "custom/sep",

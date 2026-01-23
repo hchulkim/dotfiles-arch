@@ -1,6 +1,8 @@
 # Unnecessary folders that I will not track
 autostart
 dconf
+pulse
+pavu*
 gtk-3.0
 yay
 Cursor
