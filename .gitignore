@@ -1,0 +1,10 @@
+# Unnecessary folders that I will not track
+autostart
+dconf
+gtk-3.0
+yay
+Cursor
+go
+mozilla
+nix
+tuxedo-control-center
