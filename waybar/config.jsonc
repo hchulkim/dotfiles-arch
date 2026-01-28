@@ -21,6 +21,8 @@
         "custom/sep",
         "cpu",
         "custom/sep",
+	"temperature",
+        "custom/sep",
         "memory",
         "custom/sep",
         "disk",
@@ -85,6 +87,10 @@
     "network": {
         "format": "Online",
         "format-disconnected": "Disconnected ⚠"
+    },
+    "temperature": {
+	    "critical-threshold": 80,
+	    "format": "{temperatureC}°C"
     },
     "custom/sep": {
         "format" : "|",

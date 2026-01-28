@@ -79,6 +79,15 @@ button:hover {
     border-bottom: 4px solid @ylw;
 }
 
+#temperature {
+    color: @ylw;
+    border-bottom: 4px solid @ylw;
+}
+
+#temperature.critical {
+	background-color: @red;
+}
+
 #memory {
     color: @mag;
     border-bottom: 4px solid @mag;
