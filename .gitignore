@@ -14,3 +14,7 @@ Slack
 thefuck
 Antigravity
 ibus
+
+# Sensitive files
+gh/hosts.yml
+obsidian/
