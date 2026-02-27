@@ -31,6 +31,12 @@ vim.opt.mouse = "a"            -- mouse support
 vim.opt.clipboard = "unnamedplus" -- system clipboard
 vim.opt.splitright = true      -- new splits open right
 vim.opt.splitbelow = true      -- new splits open below
+vim.opt.autoread = true        -- auto-reload files changed externally
+
+-- auto-reload files changed outside nvim (e.g. by Claude Code)
+vim.api.nvim_create_autocmd({ "FocusGained", "BufEnter", "CursorHold" }, {
+  command = "checktime",
+})
 
 -- Setup lazy.nvim
 require("lazy").setup({

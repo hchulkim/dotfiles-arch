@@ -1,7 +1,11 @@
 return {
 	"R-nvim/R.nvim",
 	lazy = false,
-	config = function()
+	opts = {
+		rconsole_width = 0,   -- 0 disables vertical split; always opens below
+	},
+	config = function(_, opts)
+		require("r").setup(opts)
 		vim.api.nvim_create_autocmd("FileType", {
 			pattern = { "r", "rmd" },
 			callback = function()

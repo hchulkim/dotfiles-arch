@@ -8,5 +8,17 @@ return {
       "nvim-tree/nvim-web-devicons",
     },
     lazy = false,
+    keys = {
+      { "<S-f>", "<cmd>Neotree toggle<cr>", desc = "Toggle file explorer" },
+      { "<S-e>", "<C-w>w", desc = "Switch focus between windows" },
+    },
+    opts = {
+      filesystem = {
+        filtered_items = {
+          visible = true,          -- show gitignored/hidden items (dimmed)
+          hide_gitignored = false,  -- don't hide gitignored files
+        },
+      },
+    },
   }
 }
